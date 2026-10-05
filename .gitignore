@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Training outputs
+out/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# Datasets and generated binaries
+data/
+*.bin
+
+# Experiment logs
+wandb/
+runs/
+.tensorboard/
+
+# Local environment and tooling
+.env
+.env.*
+.vscode/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/

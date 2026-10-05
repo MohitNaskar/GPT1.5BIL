@@ -1,0 +1,10 @@
+torch
+numpy
+tiktoken
+tqdm
+requests
+jupyter
+ipykernel
+dataclasses; python_version < "3.7"
+tensorboard
+einops
