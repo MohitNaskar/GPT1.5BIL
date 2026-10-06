@@ -16,14 +16,16 @@ env/
 
 # Training outputs
 out/
+out-*/
 checkpoints/
 *.pt
 *.pth
 *.ckpt
 
 # Datasets and generated binaries
-data/
 *.bin
+*.npy
+*.npz
 
 # Experiment logs
 wandb/
